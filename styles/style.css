@@ -14,7 +14,7 @@ body{
     background-color: #818cf8;
 }
 #bg-container{
-    width: 345px;
+    width: 455px;
     height: auto;
     box-sizing: border-box;
     background-color: var(--bg-color);
@@ -91,6 +91,10 @@ h1{
     font: var(--text-sm);
 }
 
+#bio i{
+    color: #84cc16;
+}
+
 main div h2{
     font: var(--text-md);
     color: var(--text-color);
@@ -98,7 +102,7 @@ main div h2{
 
 #collection{
     display: flex;
-    height: 420px;
+    /* height: 420px; */
     flex-wrap: wrap;
     justify-content: center;
     align-content: flex-start;
@@ -109,8 +113,4 @@ main div h2{
     height: 110px;
     flex: auto;
     object-fit: cover;
-}
-
-#teste{
-    width: 281px;
 }
