@@ -1,0 +1,116 @@
+:root{
+    --bg-color: #f1f5f9;
+    --title-color: #1E1E1E;
+    --info-color: #616161;
+    --text-color: #444444;
+    --font-family: 'Poppins', 'sans-serif';
+    --title-font: bold 24px var(--font-family);
+    --text-sm: 500 14px var(--font-family);
+    --text-md: 500 16px var(--font-family);
+}
+
+
+body{
+    background-color: #818cf8;
+}
+#bg-container{
+    width: 345px;
+    height: auto;
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+    margin-inline: auto;
+    border-radius: 24px;
+    padding: 24px 32px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+#perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#perfil-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+h1{
+    font: 600 24px 'serif', 'sans-serf';
+    color: var(--title-color);
+}
+
+#name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    gap: 5px;
+}
+
+#name img{
+    width: 30px;
+    height: 30px;
+}
+
+#perfil span{
+    font: var(--text-sm);
+    color: var(--info-color);
+    padding-block: 4px;
+}
+
+#more{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+}
+
+#more div{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #1E1E1E;
+}
+
+#bio{
+    margin-top: 11px;
+    color: var(--text-color);
+    font: var(--text-sm);
+}
+
+main div h2{
+    font: var(--text-md);
+    color: var(--text-color);
+}
+
+#collection{
+    display: flex;
+    height: 420px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    gap: 5px
+}
+
+#collection img{
+    height: 110px;
+    flex: auto;
+    object-fit: cover;
+}
+
+#teste{
+    width: 281px;
+}
